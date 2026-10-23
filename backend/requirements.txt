@@ -6,7 +6,7 @@
 # Web framework
 fastapi==0.118.0
 uvicorn[standard]==0.37.0
-sse-starlette==3.0.3
+sse-starlette==3.5.0
 
 # LangChain packages are pinned as a compatible set to avoid resolver drift.
 langchain==1.4.7
