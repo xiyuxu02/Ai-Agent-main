@@ -1,0 +1,12 @@
+.env
+.env.*
+!.env.example
+node_modules/
+dist/
+coverage/
+test-results/
+playwright-report/
+README.md
+*.log
+.eslintcache
+*.tsbuildinfo

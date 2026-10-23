@@ -1,0 +1,26 @@
+# AI Agent customer service backend dependencies
+# Python 3.10+
+# NOTE: keep comments ASCII-only so `pip install -r requirements.txt`
+# works on Windows with GBK locale.
+
+# Web framework
+fastapi==0.118.0
+uvicorn[standard]==0.37.0
+sse-starlette==3.0.3
+
+# LangChain packages are pinned as a compatible set to avoid resolver drift.
+langchain==1.4.7
+langchain-openai==1.7.2
+httpx==0.28.1
+
+# Data models
+pydantic==2.12.3
+
+# Environment variables
+python-dotenv==1.1.1
+
+# HTTP client (weather API)
+requests==2.32.5
+
+# MySQL driver (order / logistics / cancel tools)
+mysql-connector-python==9.4.0

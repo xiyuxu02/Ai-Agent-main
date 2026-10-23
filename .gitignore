@@ -1,0 +1,57 @@
+# Dependencies and virtual environments
+node_modules/
+.venv/
+venv/
+env/
+ENV/
+
+# Build output and generated metadata
+dist/
+build/
+*.egg-info/
+*.tsbuildinfo
+.vite/
+
+# Local environment and secret files. Keep shareable templates tracked.
+.env
+.env.*
+!.env.example
+!.env.*.example
+.envrc
+
+# IDE and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs and local runtime files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+logs/
+conversation_history/
+*.sqlite
+*.sqlite3
+
+# Python caches and tooling output
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+
+# Test and coverage output
+.coverage
+.coverage.*
+coverage/
+coverage.xml
+htmlcov/
+test-results/
+playwright-report/
+.eslintcache
